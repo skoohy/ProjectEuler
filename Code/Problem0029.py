@@ -11,7 +11,7 @@ for i in powers:
 print(len(new))
 
 t2 = time.time()
-print(t2-t1)
+print(f'Program Execution Time: {t2-t1} seconds')
 
 ###############################################################################
 
@@ -21,4 +21,4 @@ t1 = time.time()
 print(len(set([a**b for a in range(2,101) for b in range(2,101)])))
 
 t2 = time.time()
-print(t2-t1)
+print(f'Program Execution Time: {t2-t1} seconds')
