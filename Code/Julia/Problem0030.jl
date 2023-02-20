@@ -1,4 +1,3 @@
-@time begin
 function euler30()
     ans = 0
     for n in range(2, 354294)
@@ -7,7 +6,6 @@ function euler30()
         end
     end
     return ans
-end
-euler30()
+
 end
 print(euler30())

@@ -99,12 +99,10 @@ x =[37107287533902102798797998220837590246510135740250,
 20849603980134001723930671666823555245252804609722,
 53503534226472524250874054075591789781264330331690]
 
-@time begin
 function euler13(list=x, num_digits=10)
     digits_of_sum = [a for a in string(sum(list))]
     result = prod(digits_of_sum)[1:num_digits]
     return parse(Int64, result)
 end
-euler13()
-end
+
 print(euler13())

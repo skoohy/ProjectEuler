@@ -1,5 +1,4 @@
-@time begin     
-function euler4()
+   function euler4()
     max_palindrome = 0
     for x in range(100, 999)
         for y in range(100, 999)
@@ -12,6 +11,5 @@ function euler4()
 
     return max_palindrome
 end
-euler4()
-end
+
 print(euler4())

@@ -1,4 +1,3 @@
-@time begin
 function euler1()
     total = 0
     for i in range(1, 999)
@@ -7,7 +6,5 @@ function euler1()
         end
     end
     return total
-end
-euler1()
 end
 print(euler1())

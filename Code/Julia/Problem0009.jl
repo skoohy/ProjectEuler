@@ -1,4 +1,3 @@
-@time begin
 function euler9()
     for a in range(1, 500)
         for b in range(a+1, 500)
@@ -9,6 +8,4 @@ function euler9()
         end
     end
 end
-euler9()               
-end 
 print(euler9())           
